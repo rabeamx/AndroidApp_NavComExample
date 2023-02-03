@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/bg_gradient"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:elevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp" >
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/study"
+                    android:padding="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:fontFamily="@font/newfont"
+                    android:text="Study"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvExam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:elevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp" >
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/exam"
+                    android:padding="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:fontFamily="@font/newfont"
+                    android:text="Exam"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:elevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp" >
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/library"
+                    android:padding="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:fontFamily="@font/newfont"
+                    android:text="Library"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:elevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp" >
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/support"
+                    android:padding="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:fontFamily="@font/newfont"
+                    android:text="Support"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</layout>
